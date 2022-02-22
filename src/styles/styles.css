@@ -1,0 +1,126 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0.75rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 4px solid #fff;
+}
+
+.footer a:not(.btn--remix):link,
+a:not(.btn--remix):visited {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #000;
+  text-decoration: none;
+  border-style: none;
+}
+
+
+.footer .links {
+  padding: 0.5rem 1rem 1.5rem;
+  white-space: nowrap;
+}
+
+.divider {
+  padding: 0 1rem;
+  color: white !important;
+}
+
+.illustration {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 200px;
+}
+
+body {
+  background-color: #181818 !important;
+  font-family: HK Grotesk;
+  background-color: var(--color-bg);
+}
+
+h1, p, h2, h3 {
+  color: white !important;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.4));
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.background {
+  background: linear-gradient( -50deg, #663399, #7953A9, #8B74BD, #B9BFFF, #4066E0, #22277A) !important;
+  width: 100% !important;
+  height: 700px !important;
+}
+
+.btn,
+input[type="submit"] {
+  border: 0 !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  height: 38px !important;
+  line-height: 38px !important;
+  margin: 0.5em !important;
+  padding: 0 30px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  position: static !important;
+}
+
+.pa {
+  padding: 20px;
+}
+
+footer {
+  margin-bottom: 0rem !important;
+}
+
+.text-left {
+  padding: 25px !important;
+  text-align: left !important;
+}
+
+a {
+  color: #4066E0 !important;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.bio {
+  padding: 50px;
+}
